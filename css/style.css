@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: rgb(240, 244, 248);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#logocontainer{
+    height: 60px;
+    
+}
+
+#logo{
+    height: 100%;
+}
+
+h1{
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
+nav{
+    height: 70px;
+}
+
+button{
+    border-radius: 4px;
+    
+}
