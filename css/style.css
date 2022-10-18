@@ -36,9 +36,33 @@ main{
     background-color: white;
     width: 70%;
     margin: auto;
+    margin-top: 40px;
 }
 
 nav{
-    height: 70px;
+    height: 60px;
 }
 
+.options{
+    line-height: 60px;
+    margin-left: 50px;
+}
+
+button{
+    border-radius: 5px; 
+    padding: 7px 14px;
+    font-size: 12px;
+
+}
+
+.blue{
+    background-color: rgb(8, 171, 241);
+    color: white;
+    border: 0;
+}
+
+.white{
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+}
