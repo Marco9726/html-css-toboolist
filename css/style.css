@@ -97,16 +97,23 @@ li{
     margin-bottom: 20px;
 }
 
-
 li::before{
-    content: '\2713';
-    color: green;
     font-size: 20px;
-    border: 1px solid green;
     border-radius: 50%;
     padding: 0 4px;
     margin-right: 10px;
-    
+}
+
+.check::before{
+    content: '\2713';
+    color: green;
+    border: 1px solid green;
+}
+
+.nope::before{
+    content: 'X';
+    color: red;
+    border: 1px solid red;
 }
 
 .color{
@@ -118,5 +125,13 @@ li::before{
 
 .violete{
     background-color: blueviolet;
+}
+
+.green{
+    background-color: lightseagreen;
+}
+
+.orange{
+    background-color: orange;
 }
 
