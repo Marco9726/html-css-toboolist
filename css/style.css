@@ -8,18 +8,18 @@
 body{
     background-color: rgb(240, 244, 248);
 }
-
+/* Header Start */
 header{
     height: 80px;
     width: 100%;
     background-color: white;
     padding-top: 10px;
     padding-left: 20px;
+    margin-bottom: 40px;
 }
 
 #logocontainer{
     height: 60px;
-    
 }
 
 #logo{
@@ -32,13 +32,19 @@ h1{
     margin-left: 10px;
 }
 
-main{
+.container{
     background-color: white;
     width: 70%;
     margin: auto;
-    margin-top: 40px;
 }
 
+.top{
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 3px;
+}
+/* Header End */
+
+/* Nav Start⁄ */
 nav{
     height: 60px;
 }
@@ -52,7 +58,6 @@ button{
     border-radius: 5px; 
     padding: 7px 14px;
     font-size: 12px;
-
 }
 
 .blue{
@@ -66,3 +71,10 @@ button{
     border: 1px solid lightgrey;
     color: lightgrey;
 }
+/* Nav End */
+
+/* Main Start */
+section{
+margin-left: 50px;
+}
+
